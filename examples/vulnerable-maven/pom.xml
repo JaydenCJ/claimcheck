@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kestrel</groupId>
+  <artifactId>kestrel-api</artifactId>
+  <version>3.2.0</version>
+
+  <!-- No settings.xml, so Maven Central is consulted directly, and the POM
+       widens the resolution surface further with its own repositories. -->
+  <repositories>
+    <repository>
+      <id>kestrel-releases</id>
+      <url>http://maven.kestrel.test/releases</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>jitpack</id>
+      <url>https://jitpack.io</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>jitpack-plugins</id>
+      <url>https://jitpack.io</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.kestrel</groupId>
+      <artifactId>kestrel-core</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.kestrel.data</groupId>
+      <artifactId>store-client</artifactId>
+      <version>1.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.14.0</version>
+    </dependency>
+  </dependencies>
+</project>

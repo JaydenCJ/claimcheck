@@ -1,0 +1,10 @@
+# The classic Birsan setup: public PyPI as the primary index, the private
+# index bolted on with --extra-index-url. pip pools BOTH and installs the
+# best version — a public kestrel-billing 99.0 beats the private 1.2.
+--index-url https://pypi.org/simple
+--extra-index-url http://pypi.kestrel.test/simple
+
+http-kit==2.31.0
+kestrel-billing>=1.2
+kestrel_common==3.4.1
+tabular-lite==5.9.3 ; python_version >= "3.9"

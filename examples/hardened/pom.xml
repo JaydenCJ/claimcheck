@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kestrel</groupId>
+  <artifactId>kestrel-api</artifactId>
+  <version>3.2.0</version>
+
+  <!-- No <repositories> here: routing lives in settings.xml, where a blanket
+       mirror sends every request through the internal repository manager. -->
+  <dependencies>
+    <dependency>
+      <groupId>com.kestrel</groupId>
+      <artifactId>kestrel-core</artifactId>
+      <version>2.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.kestrel.data</groupId>
+      <artifactId>store-client</artifactId>
+      <version>1.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.14.0</version>
+    </dependency>
+  </dependencies>
+</project>

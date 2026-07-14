@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0">
+  <mirrors>
+    <mirror>
+      <id>kestrel-virtual</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://maven.kestrel.test/virtual</url>
+    </mirror>
+  </mirrors>
+</settings>

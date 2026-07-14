@@ -1,0 +1,8 @@
+# One index, private, https. The repository manager behind pypi.kestrel.test
+# merges public PyPI server-side, so pip never needs --extra-index-url.
+--index-url https://pypi.kestrel.test/simple
+
+http-kit==2.31.0
+kestrel-billing==1.2.0
+kestrel-common==3.4.1
+tabular-lite==5.9.3 ; python_version >= "3.9"

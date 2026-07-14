@@ -1,0 +1,4 @@
+{
+  "internal": ["@kestrel/*", "kestrel-*", "com.kestrel", "com.kestrel.*"],
+  "failOn": "low"
+}

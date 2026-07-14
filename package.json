@@ -2,7 +2,7 @@
   "name": "claimcheck",
   "version": "0.1.0",
   "description": "Audits npm, pip and Maven configs for dependency-confusion exposure — unscoped internals, missing registry mappings — statically, offline, no probing.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
